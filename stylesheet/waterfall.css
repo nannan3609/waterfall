@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    position: relative;
+    float: left;
+}
+
+/*所有图片向左浮动*/
+.content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+}
+
+/*图片外面的边框样式*/
+.content img {
+    width: 180px;
+    height: auto;
+}
+
+/*图片的样式，高宽等*/
